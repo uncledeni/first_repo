@@ -1,0 +1,51 @@
+[
+  {
+    "id": "kp_01",
+    "type": "KP",
+    "source": "",
+    "zone": 1,
+    "condition": "ok"
+  },
+  {
+    "id": "bur_01",
+    "type": "BUR",
+    "source": "kp_01",
+    "zone": 1,
+    "condition": "ok"
+  },
+  {
+    "id": "bos_01",
+    "type": "BOS",
+    "source": "bur_01",
+    "zone": 1,
+    "condition": "ok"
+  },
+  {
+    "id": "bos_404",
+    "type": "BOS",
+    "source": "bur_01",
+    "zone": 1,
+    "condition": "ok"
+  },
+  {
+    "id": "rkn_01",
+    "type": "RKN",
+    "source": "kp_01",
+    "zone": 1,
+    "condition": "ok"
+  },
+  {
+    "id": "bos_03",
+    "type": "BOS",
+    "source": "rkn_01",
+    "zone": 1,
+    "condition": "ok"
+  },
+  {
+    "id": "bos_04",
+    "type": "BOS",
+    "source": "rkn_01",
+    "zone": 1,
+    "condition": "ok"
+  }
+]
